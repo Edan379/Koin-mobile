@@ -7,8 +7,9 @@ html {
 }
 
 body {
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   margin: 0;
+  overflow-x: hidden ;
   width: auto;
   height: auto;
 }
@@ -584,6 +585,10 @@ footer {
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
+}
+
+.li-link-footer {
+  margin: 0 auto;
 }
 
 .form-input-mail {
